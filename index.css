@@ -61,7 +61,7 @@ ul[class] {
 }
 
 .text-bold {
-    font-weight: var(--bold , 500);
+    font-weight: bold;
 }
 
 .light-gray {
@@ -86,8 +86,8 @@ h1 {
 
 body {
     display: grid;
-    min-height: 90vh;
-    place-items: center;
+    min-height: 100vh;
+    place-content: center;
     background-color: var(--Main-bg);
 
     font-family: 'DM Sans', sans-serif;
@@ -99,6 +99,8 @@ body {
     grid-template-columns: 1fr;
     row-gap: 1.2rem;
     min-width: 25rem;
+
+    transform: scale(1.15);
 }
 
 /* Balance */
@@ -183,7 +185,6 @@ body {
 .total {
     justify-content: space-between;
     border-top: 1px solid lightgray;
-    --bold : bold;
     --flow-top : 1.3rem;
     color: var(--Texts);
 }
@@ -213,7 +214,6 @@ body {
     background-color: black;
     color: var(--White);
     border-radius: calc(var(--border-radius) - 13px);
-    --bold : bold;
     font-size: .8rem;
     position: absolute;
     top: -2.5rem;
