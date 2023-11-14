@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,500;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="balance flex box-paddings">
+        <div class="balance__number light-flow-content">
+          <p class="white-color balance-number__title">My balance</p>
+          <p class="white-color text-bold">$921.48</p>
+        </div>
+        <img width="60px" src="images/logo.svg" alt="" />
+      </div>
+      <div class="data box-paddings flow-content">
+        <h1>Spending - Last 7 days</h1>
+
+        <div class="candles-container">
+          <ul class="candles flex">
+            <li class="candle-item flex">
+              <div class="candle pink-candle">
+                <div class="candle-detail text-bold">
+                  <p>$12.36</p>
+                </div>
+              </div>
+              <p class="candle-title light-gray">mon</p>
+            </li>
+            <li class="candle-item flex">
+              <div class="candle pink-candle">
+                <div class="candle-detail text-bold">
+                  <p>$32.36</p>
+                </div>
+              </div>
+              <p class="candle-title light-gray">tue</p>
+            </li>
+            <li class="candle-item flex">
+              <div class="candle blue-candle">
+                <div class="candle-detail text-bold">
+                  <p>$62.43</p>
+                </div>
+              </div>
+              <p class="candle-title light-gray">wed</p>
+            </li>
+            <li class="candle-item flex">
+              <div class="candle-detail text-bold">
+                <p>$78.98</p>
+              </div>
+              <div class="candle pink-candle">
+                <div class="candle-detail text-bold">
+                  <p>$23.12</p>
+                </div>
+              </div>
+              <p class="candle-title light-gray">thu</p>
+            </li>
+            <li class="candle-item flex">
+              <div class="candle pink-candle">
+                <div class="candle-detail text-bold">
+                  <p>$14.33</p>
+                </div>
+              </div>
+              <p class="candle-title light-gray">fri</p>
+            </li>
+            <li class="candle-item flex">
+              <div class="candle pink-candle">
+                <div class="candle-detail text-bold">
+                  <p>$58.54</p>
+                </div>
+              </div>
+              <p class="candle-title light-gray">sat</p>
+            </li>
+            <li class="candle-item flex">
+              <div class="candle pink-candle">
+                <div class="candle-detail text-bold">
+                  <p>$25.36</p>
+                </div>
+              </div>
+              <p class="candle-title light-gray">sun</p>
+            </li>
+          </ul>
+        </div>
+
+        <footer class="total flex flow-content-medium">
+          <div>
+            <p class="light-gray title total-title">Total this month</p>
+            <p class="text-bold total-profit g">$478.33</p>
+          </div>
+          <div>
+            <p class="text-bold percentage-title">+2.4%</p>
+            <p class="light-gray title">from last month</p>
+          </div>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
