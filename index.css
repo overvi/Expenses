@@ -99,8 +99,6 @@ body {
     grid-template-columns: 1fr;
     row-gap: 1.2rem;
     min-width: 25rem;
-
-    transform: scale(1.15);
 }
 
 /* Balance */
@@ -227,4 +225,12 @@ body {
 
 .candle:hover .candle-detail {
     opacity: 1;
+}
+
+
+
+@media (width > 769px) {
+    .wrapper {
+        scale: 1.15;
+    }
 }
